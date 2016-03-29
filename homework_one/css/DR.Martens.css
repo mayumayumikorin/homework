@@ -6,18 +6,27 @@ body{font-family:arial bold;
 #store{
 	position:absolute;
 	z-index:10;
-	margin:1% 0 0 3%
+	margin:-1% 0 0 3%
 	
 }
 #collection{
 	position:absolute;
 	z-index:9;
-	margin:50% 0 0 73%;
+	margin-left:0 ;
+	margin:43% 0 0 73% ;
+	min-width:300px ;
 }
-#story{
+/* #story{
 	position:absolute;
 	z-index:8;
-	margin:50% 0 0 86%;
+	margin-right:0 ;
+} */
+/* #linkdiv{
+	margin:50% 0 0 73% ;
+	min-width:300px ;
+} */
+#collection .a{
+	margin-left:30px;
 }
 a{
 	color:black;
